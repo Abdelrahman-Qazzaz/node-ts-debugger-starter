@@ -1,0 +1,13 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --inspect --loader ts-node/esm src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
